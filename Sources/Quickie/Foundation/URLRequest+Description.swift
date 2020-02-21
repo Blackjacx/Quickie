@@ -18,6 +18,10 @@ public extension URLRequest {
             return "\(title):\n\(value)"
         }()
 
+        let timeoutDescription: String = {
+            let title = "Timeout: \(timeoutInterval)"
+        }
+
         let headerDescription: String = {
             let title = "HTTP-Header"
             var value = "VOID"
@@ -40,6 +44,7 @@ public extension URLRequest {
 
         return """
         \(methodDescription)
+        \(timeoutDescription)
         \(headerDescription)
         \(body)
         """
