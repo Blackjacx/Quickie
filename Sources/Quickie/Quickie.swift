@@ -1,4 +1,8 @@
-struct Quickie {
-    var text = "Hello, World!"
-}
+//
+//  File.swift
+//  
+//
+//  Created by Stefan Herold on 21.02.20.
+//
 
+import Foundation
