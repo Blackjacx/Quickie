@@ -19,8 +19,8 @@ public extension URLRequest {
         }()
 
         let timeoutDescription: String = {
-            let title = "Timeout: \(timeoutInterval)"
-        }
+            "Timeout: \(timeoutInterval)"
+        }()
 
         let headerDescription: String = {
             let title = "HTTP-Header"
