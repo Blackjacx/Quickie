@@ -8,9 +8,10 @@ public func allTests() -> [XCTestCaseEntry] {
         testCase(URLTests.allTests)
     ]
 
-    #if !canImport(UIKit)
+    #if canImport(UIKit)
     tests.append([
-        testCase(UIColorTests.allTests)
+        testCase(UIColorTests.allTests),
+        testCase(ClampingTests.allTests)
     ])
     #endif
 
