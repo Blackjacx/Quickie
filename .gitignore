@@ -24,6 +24,8 @@ Gemfile
 # Bundler vendor information which is bootstrapped
 vendor
 
+*.xcodeproj
+
 ## Build generated
 build/
 DerivedData/
