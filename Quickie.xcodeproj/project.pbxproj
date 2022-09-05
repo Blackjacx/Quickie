@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		"Quickie::QuickiePackageTests::ProductTarget" /* QuickiePackageTests */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = OBJ_60 /* Build configuration list for PBXAggregateTarget "QuickiePackageTests" */;
+			buildPhases = (
+			);
+			dependencies = (
+				OBJ_63 /* PBXTargetDependency */,
+			);
+			name = QuickiePackageTests;
+			productName = QuickiePackageTests;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		B910C3FA2406EFB70069BC3C /* Clamping.swift in Sources */ = {isa = PBXBuildFile; fileRef = B910C3F92406EFB70069BC3C /* Clamping.swift */; };
+		B910C4002406F3430069BC3C /* ClampingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B910C3FB2406F1B60069BC3C /* ClampingTests.swift */; };
+		OBJ_41 /* Bundle+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_10 /* Bundle+Extensions.swift */; };
+		OBJ_42 /* Sequence+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_11 /* Sequence+Extensions.swift */; };
+		OBJ_43 /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* String+Extensions.swift */; };
+		OBJ_44 /* URL+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_13 /* URL+Extensions.swift */; };
+		OBJ_45 /* URLRequest+Description.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_14 /* URLRequest+Description.swift */; };
+		OBJ_46 /* UserDefaults+Subscripts.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_15 /* UserDefaults+Subscripts.swift */; };
+		OBJ_47 /* Quickie.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_16 /* Quickie.swift */; };
+		OBJ_48 /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_18 /* UIColor+Extensions.swift */; };
+		OBJ_49 /* UIImage+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_19 /* UIImage+Extensions.swift */; };
+		OBJ_50 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_20 /* UIView+Extensions.swift */; };
+		OBJ_51 /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_21 /* UIViewController+Extensions.swift */; };
+		OBJ_58 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
+		OBJ_69 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_25 /* Person.swift */; };
+		OBJ_70 /* QuickieTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_26 /* QuickieTests.swift */; };
+		OBJ_71 /* UIColorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_27 /* UIColorTests.swift */; };
+		OBJ_72 /* URLTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_28 /* URLTests.swift */; };
+		OBJ_73 /* XCTestManifests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_29 /* XCTestManifests.swift */; };
+		OBJ_75 /* Quickie.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Quickie::Quickie::Product" /* Quickie.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B910C3F42406EF210069BC3C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "Quickie::Quickie";
+			remoteInfo = Quickie;
+		};
+		B910C3F52406EF230069BC3C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "Quickie::QuickieTests";
+			remoteInfo = QuickieTests;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B910C3F92406EFB70069BC3C /* Clamping.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clamping.swift; sourceTree = "<group>"; };
+		B910C3FB2406F1B60069BC3C /* ClampingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClampingTests.swift; sourceTree = "<group>"; };
+		OBJ_10 /* Bundle+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+Extensions.swift"; sourceTree = "<group>"; };
+		OBJ_11 /* Sequence+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sequence+Extensions.swift"; sourceTree = "<group>"; };
+		OBJ_12 /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
+		OBJ_13 /* URL+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URL+Extensions.swift"; sourceTree = "<group>"; };
+		OBJ_14 /* URLRequest+Description.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URLRequest+Description.swift"; sourceTree = "<group>"; };
+		OBJ_15 /* UserDefaults+Subscripts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserDefaults+Subscripts.swift"; sourceTree = "<group>"; };
+		OBJ_16 /* Quickie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quickie.swift; sourceTree = "<group>"; };
+		OBJ_18 /* UIColor+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
+		OBJ_19 /* UIImage+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extensions.swift"; sourceTree = "<group>"; };
+		OBJ_20 /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
+		OBJ_21 /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extensions.swift"; sourceTree = "<group>"; };
+		OBJ_25 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		OBJ_26 /* QuickieTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickieTests.swift; sourceTree = "<group>"; };
+		OBJ_27 /* UIColorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorTests.swift; sourceTree = "<group>"; };
+		OBJ_28 /* URLTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLTests.swift; sourceTree = "<group>"; };
+		OBJ_29 /* XCTestManifests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCTestManifests.swift; sourceTree = "<group>"; };
+		OBJ_33 /* fastlane */ = {isa = PBXFileReference; lastKnownFileType = folder; path = fastlane; sourceTree = SOURCE_ROOT; };
+		OBJ_34 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		OBJ_35 /* Gemfile.lock */ = {isa = PBXFileReference; lastKnownFileType = text; path = Gemfile.lock; sourceTree = "<group>"; };
+		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		"Quickie::Quickie::Product" /* Quickie.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Quickie.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"Quickie::QuickieTests::Product" /* QuickieTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; path = QuickieTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		OBJ_52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_75 /* Quickie.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B910C3F82406EFA50069BC3C /* PropertyWrappers */ = {
+			isa = PBXGroup;
+			children = (
+				B910C3F92406EFB70069BC3C /* Clamping.swift */,
+			);
+			path = PropertyWrappers;
+			sourceTree = "<group>";
+		};
+		B910C3FD2406F1E50069BC3C /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_27 /* UIColorTests.swift */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		B910C3FE2406F2320069BC3C /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_26 /* QuickieTests.swift */,
+				OBJ_28 /* URLTests.swift */,
+			);
+			path = Foundation;
+			sourceTree = "<group>";
+		};
+		B910C3FF2406F2420069BC3C /* PropertyWrappers */ = {
+			isa = PBXGroup;
+			children = (
+				B910C3FB2406F1B60069BC3C /* ClampingTests.swift */,
+			);
+			path = PropertyWrappers;
+			sourceTree = "<group>";
+		};
+		OBJ_17 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_18 /* UIColor+Extensions.swift */,
+				OBJ_19 /* UIImage+Extensions.swift */,
+				OBJ_20 /* UIView+Extensions.swift */,
+				OBJ_21 /* UIViewController+Extensions.swift */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		OBJ_22 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_23 /* QuickieTests */,
+			);
+			name = Tests;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_23 /* QuickieTests */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_29 /* XCTestManifests.swift */,
+				B910C3FE2406F2320069BC3C /* Foundation */,
+				OBJ_24 /* Models */,
+				B910C3FF2406F2420069BC3C /* PropertyWrappers */,
+				B910C3FD2406F1E50069BC3C /* UIKit */,
+			);
+			name = QuickieTests;
+			path = Tests/QuickieTests;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_24 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_25 /* Person.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		OBJ_30 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				"Quickie::QuickieTests::Product" /* QuickieTests.xctest */,
+				"Quickie::Quickie::Product" /* Quickie.framework */,
+			);
+			name = Products;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		OBJ_5 /*  */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_6 /* Package.swift */,
+				OBJ_7 /* Sources */,
+				OBJ_22 /* Tests */,
+				OBJ_30 /* Products */,
+				OBJ_33 /* fastlane */,
+				OBJ_34 /* README.md */,
+				OBJ_35 /* Gemfile.lock */,
+			);
+			name = "";
+			sourceTree = "<group>";
+		};
+		OBJ_7 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_8 /* Quickie */,
+			);
+			name = Sources;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_8 /* Quickie */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_16 /* Quickie.swift */,
+				OBJ_9 /* Foundation */,
+				B910C3F82406EFA50069BC3C /* PropertyWrappers */,
+				OBJ_17 /* UIKit */,
+			);
+			name = Quickie;
+			path = Sources/Quickie;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_9 /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_10 /* Bundle+Extensions.swift */,
+				OBJ_11 /* Sequence+Extensions.swift */,
+				OBJ_12 /* String+Extensions.swift */,
+				OBJ_13 /* URL+Extensions.swift */,
+				OBJ_14 /* URLRequest+Description.swift */,
+				OBJ_15 /* UserDefaults+Subscripts.swift */,
+			);
+			path = Foundation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		"Quickie::Quickie" /* Quickie */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_37 /* Build configuration list for PBXNativeTarget "Quickie" */;
+			buildPhases = (
+				OBJ_40 /* Sources */,
+				OBJ_52 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Quickie;
+			productName = Quickie;
+			productReference = "Quickie::Quickie::Product" /* Quickie.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		"Quickie::QuickieTests" /* QuickieTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_65 /* Build configuration list for PBXNativeTarget "QuickieTests" */;
+			buildPhases = (
+				OBJ_68 /* Sources */,
+				OBJ_74 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				OBJ_76 /* PBXTargetDependency */,
+			);
+			name = QuickieTests;
+			productName = QuickieTests;
+			productReference = "Quickie::QuickieTests::Product" /* QuickieTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		"Quickie::SwiftPMPackageDescription" /* QuickiePackageDescription */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_54 /* Build configuration list for PBXNativeTarget "QuickiePackageDescription" */;
+			buildPhases = (
+				OBJ_57 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QuickiePackageDescription;
+			productName = QuickiePackageDescription;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		OBJ_1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftMigration = 9999;
+				LastUpgradeCheck = 9999;
+			};
+			buildConfigurationList = OBJ_2 /* Build configuration list for PBXProject "Quickie" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = OBJ_5 /*  */;
+			productRefGroup = OBJ_30 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				"Quickie::Quickie" /* Quickie */,
+				"Quickie::SwiftPMPackageDescription" /* QuickiePackageDescription */,
+				"Quickie::QuickiePackageTests::ProductTarget" /* QuickiePackageTests */,
+				"Quickie::QuickieTests" /* QuickieTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		OBJ_40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_41 /* Bundle+Extensions.swift in Sources */,
+				OBJ_42 /* Sequence+Extensions.swift in Sources */,
+				OBJ_43 /* String+Extensions.swift in Sources */,
+				OBJ_44 /* URL+Extensions.swift in Sources */,
+				OBJ_45 /* URLRequest+Description.swift in Sources */,
+				OBJ_46 /* UserDefaults+Subscripts.swift in Sources */,
+				B910C3FA2406EFB70069BC3C /* Clamping.swift in Sources */,
+				OBJ_47 /* Quickie.swift in Sources */,
+				OBJ_48 /* UIColor+Extensions.swift in Sources */,
+				OBJ_49 /* UIImage+Extensions.swift in Sources */,
+				OBJ_50 /* UIView+Extensions.swift in Sources */,
+				OBJ_51 /* UIViewController+Extensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_58 /* Package.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_69 /* Person.swift in Sources */,
+				OBJ_70 /* QuickieTests.swift in Sources */,
+				OBJ_71 /* UIColorTests.swift in Sources */,
+				OBJ_72 /* URLTests.swift in Sources */,
+				OBJ_73 /* XCTestManifests.swift in Sources */,
+				B910C4002406F3430069BC3C /* ClampingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		OBJ_63 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "Quickie::QuickieTests" /* QuickieTests */;
+			targetProxy = B910C3F52406EF230069BC3C /* PBXContainerItemProxy */;
+		};
+		OBJ_76 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "Quickie::Quickie" /* Quickie */;
+			targetProxy = B910C3F42406EF210069BC3C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		OBJ_3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"SWIFT_PACKAGE=1",
+					"DEBUG=1",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_SWIFT_FLAGS = "$(inherited) -DXcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) SWIFT_PACKAGE DEBUG";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				USE_HEADERMAP = NO;
+			};
+			name = Debug;
+		};
+		OBJ_38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = Quickie.xcodeproj/Quickie_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = Quickie;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = Quickie;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		OBJ_39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = Quickie.xcodeproj/Quickie_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = Quickie;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = Quickie;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		OBJ_4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"SWIFT_PACKAGE=1",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_SWIFT_FLAGS = "$(inherited) -DXcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) SWIFT_PACKAGE";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				USE_HEADERMAP = NO;
+			};
+			name = Release;
+		};
+		OBJ_55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 5 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -package-description-version 5.2.0";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		OBJ_56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 5 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -package-description-version 5.2.0";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		OBJ_61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		OBJ_62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		OBJ_66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = Quickie.xcodeproj/QuickieTests_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @loader_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = QuickieTests;
+				TVOS_DEPLOYMENT_TARGET = 11.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		OBJ_67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = Quickie.xcodeproj/QuickieTests_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @loader_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = QuickieTests;
+				TVOS_DEPLOYMENT_TARGET = 11.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		OBJ_2 /* Build configuration list for PBXProject "Quickie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_3 /* Debug */,
+				OBJ_4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_37 /* Build configuration list for PBXNativeTarget "Quickie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_38 /* Debug */,
+				OBJ_39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_54 /* Build configuration list for PBXNativeTarget "QuickiePackageDescription" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_55 /* Debug */,
+				OBJ_56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_60 /* Build configuration list for PBXAggregateTarget "QuickiePackageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_61 /* Debug */,
+				OBJ_62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_65 /* Build configuration list for PBXNativeTarget "QuickieTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_66 /* Debug */,
+				OBJ_67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = OBJ_1 /* Project object */;
+}
